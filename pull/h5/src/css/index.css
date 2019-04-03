@@ -1,0 +1,70 @@
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.web {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column; }
+
+.top {
+  width: 100%;
+  height: 250px; }
+  .top img {
+    width: 100%;
+    height: 100%; }
+
+.nav {
+  width: 100%;
+  height: 50px; }
+  .nav span {
+    width: 25%;
+    text-align: center;
+    float: left;
+    line-height: 50px; }
+
+.active {
+  color: #ec6178;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid #ec6178; }
+
+.scroller {
+  flex: 1;
+  overflow: hidden;
+  margin-top: 20px; }
+  .scroller .content {
+    width: 100%; }
+    .scroller .content .con-list {
+      width: 100%;
+      display: flex; }
+      .scroller .content .con-list .list {
+        flex: 1;
+        border: 1px solid #ccc; }
+        .scroller .content .con-list .list li {
+          border: 1px solid #ccc; }
+          .scroller .content .con-list .list li img {
+            width: 100%; }
+
+.small {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #ccc; }
+  .small h3 {
+    width: 100%;
+    height: 30px;
+    float: left; }
+
+.pullup {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #ccc; }

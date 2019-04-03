@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="web">
+        <div class="top">
+            <img src="img/top.png" alt="">
+        </div>
+        <ul class="nav">
+            <span class="active" data-index="0">饭圈头条</span>
+            <span data-index="1" data-name="my">我的爱豆</span>
+            <span data-index="2" data-name="ice">饭圈广场</span>
+            <span data-index="3" data-name="same">爱豆同款</span>
+        </ul>
+
+        <div class="scroller">
+            <div class="content">
+                <div class="con-list">
+                    <ul class="list" id="0"></ul>
+                    <ul class="list" id="0"></ul>
+                </div>
+                <p class="pullup" id="pullup" style="background:red">下拉加载</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- <div class="small">
+                    <h3>sduhfjk</h3>
+                    <p>hahdszxfjkcvm</p>
+                </div> -->
+    <script src="js/libs/require.js"></script>
+    <script>
+        require(['js/main'], function() {
+            require(['index'])
+        })
+    </script>
+</body>
+
+</html>
